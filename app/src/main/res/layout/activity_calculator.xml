@@ -29,38 +29,42 @@
         app:layout_constraintStart_toStartOf="parent"
         android:weightSum="4"
         >
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="7"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="8"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="9"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="+"
-            android:textSize="45sp"
             android:background="@drawable/btn_operator"
-            />
+            android:onClick="onClickOperator"
+            android:text="+"
+            android:textSize="45sp" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/second_row"
@@ -71,38 +75,42 @@
         app:layout_constraintStart_toStartOf="parent"
         android:weightSum="4"
         >
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="4"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="5"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="6"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="-"
-            android:textSize="45sp"
             android:background="@drawable/btn_operator"
-            />
+            android:onClick="onClickOperator"
+            android:text="-"
+            android:textSize="45sp" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/third_row"
@@ -113,38 +121,42 @@
         app:layout_constraintStart_toStartOf="parent"
         android:weightSum="4"
         >
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="1"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="2"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="3"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="*"
-            android:textSize="45sp"
             android:background="@drawable/btn_operator"
-            />
+            android:onClick="onClickOperator"
+            android:text="*"
+            android:textSize="45sp" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/fourth_row"
@@ -155,37 +167,41 @@
         app:layout_constraintStart_toStartOf="parent"
         android:weightSum="4"
         >
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="."
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onClickDigit"
             android:text="0"
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="@drawable/btn_digit"
+            android:onClick="onEqual"
             android:text="="
-            android:textSize="45sp"
-            android:background="@drawable/btn_digit"
-            />
+            android:textSize="45sp" />
+
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="/"
-            android:textSize="45sp"
             android:background="@drawable/btn_operator"
-            />
+            android:onClick="onClickOperator"
+            android:text="/"
+            android:textSize="45sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

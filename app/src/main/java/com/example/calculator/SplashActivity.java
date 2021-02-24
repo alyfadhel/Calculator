@@ -24,5 +24,7 @@ public class SplashActivity extends AppCompatActivity {
 
     private void goToCalculator() {
         Intent intent = new Intent(SplashActivity.this,Calculator.class);
+        startActivity(intent);
+        finish();
     }
 }
